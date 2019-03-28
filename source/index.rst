@@ -3,14 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to aiOpenDoc's documentation!
+欢迎阅读高重AI开放平台技术文档
 =====================================
+
+目录:
+--------
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :glob:
 
-
+   guide
+   OCR
+   face
 
 Indices and tables
 ==================
