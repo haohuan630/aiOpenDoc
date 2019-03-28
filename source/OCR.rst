@@ -6,7 +6,7 @@
 **发票识别**
 -------------
 
-.. include:: ../OCR/INVOICE_ID.rst
+.. include:: ./OCR/INVOICE_ID.rst
 
 **表格文字识别**
 -----------------
