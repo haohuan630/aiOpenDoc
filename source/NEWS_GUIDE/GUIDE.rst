@@ -7,7 +7,7 @@ HI，您好，欢迎使用高重AI开放平台服务。
 
 | 公司官网：www.grandhonor.net
 
-| 官方咨询电话：021-63460029
+| 官方咨询电话：18818226695
 
 | 联系邮箱：sales@grandhonor.net
 

@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'aiOpenDoc'
+project = '高重AI文档中心'
 copyright = '2019, sunny'
 author = 'sunny'
 
