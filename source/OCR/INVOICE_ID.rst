@@ -101,9 +101,11 @@ HI，您好，欢迎使用高重AI开放平台定额发票OCR API接口服务。
 ============ ==================== ==========================
 
 
-假设应用密钥为：a95eceb1ac8c24ee28b70f7dbba912bf，示例图片文件存储路径为：/path/to/image。
+假设应用密钥为：bhiOaZRznGjFROtk，示例图片文件存储路径为：/path/to/image。
 
-| 下面使用PHP实现该HTTP API调用，其中getReqSign、doHttpPost可以从'接口鉴权获取<https://openai.grandhonor.net/Main/DocCenter>'_。
+| 下面使用PHP实现该HTTP API调用，其中getReqSign、doHttpPost可以从'接口鉴权获取'_。
+
+.. _接口鉴权:https://aiopendoc.readthedocs.io/en/latest/guide.html#id7
 
 .. code-block:: c                                               
   :linenos:                                                   
@@ -115,7 +117,7 @@ HI，您好，欢迎使用高重AI开放平台定额发票OCR API接口服务。
   $base64 = base64_encode($data);
 
   // 设置请求数据
-  $appkey = 'a95eceb1ac8c24ee28b70f7dbba912bf';
+  $appkey = 'bhiOaZRznGjFROtk';
   $params = array(
       'app_id'     => '1000001',
       'image'      => $base64,
@@ -126,7 +128,7 @@ HI，您好，欢迎使用高重AI开放平台定额发票OCR API接口服务。
   $params['sign'] = getReqSign($params, $appkey);
 
   // 执行API调用
-  $url = 'https://api.ai.qq.com/fcgi-bin/ocr/ocr_generalocr';
+  $url = 'https://openai.grandhonor.net/Main/Index';
   $response = doHttpPost($url, $params);
   echo $response;
 
@@ -139,7 +141,7 @@ source code below ::
     $base64 = base64_encode($data);
 
     // 设置请求数据
-    $appkey = 'a95eceb1ac8c24ee28b70f7dbba912bf';
+    $appkey = ''bhiOaZRznGjFROtk'';
     $params = array(
         'app_id'     => '1000001',
         'image'      => $base64,
@@ -150,7 +152,7 @@ source code below ::
     $params['sign'] = getReqSign($params, $appkey);
 
     // 执行API调用
-    $url = 'https://api.ai.qq.com/fcgi-bin/ocr/ocr_generalocr';
+    $url = 'https://openai.grandhonor.net/Main/Index';
     $response = doHttpPost($url, $params);
     echo $response;
 
