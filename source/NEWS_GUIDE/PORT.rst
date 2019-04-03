@@ -76,7 +76,7 @@
 
 **1. 示例数据**
 
-假设接口请求参数如下，应用密钥为：a95eceb1ac8c24ee28b70f7dbba912bf，其中sign参数用于存储接口请求签名。
+假设接口请求参数如下，应用密钥为：bhiOaZRznGjFROtk，其中sign参数用于存储接口请求签名。
 
 ============ ==================== ==========================
   参数名称     参数数据              描述
@@ -103,15 +103,15 @@
     // 接口请求参数
     $params = array(
         'app_id'     => '10000',
-        'time_stamp' => '1493449657',
-        'nonce_str'  => '20e3408a79',
-        'key1'       => '腾讯AI开放平台',
+        'time_stamp' => '1554272042',
+        'nonce_str'  => '46087c4dc98c4fb388cc4ace41a234e6',
+        'key1'       => '高重AI开放平台',
         'key2'       => '示例仅供参考',
         'sign'       => '',
     );
 
     // 应用密钥
-    $appkey = 'a95eceb1ac8c24ee28b70f7dbba912bf';
+    $appkey = 'bhiOaZRznGjFROtk'';
 
     // 计算sign参数（接口请求签名）
     $params['sign'] = getReqSign($params, $appkey);
@@ -127,18 +127,18 @@
     ["app_id"]=>
     string(5) "10000"
     ["time_stamp"]=>
-    string(10) "1493449657"
+    string(10) "1554272042"
     ["nonce_str"]=>
-    string(10) "20e3408a79"
+    string(10) "46087c4dc98c4fb388cc4ace41a234e6""
     ["key1"]=>
-    string(20) "腾讯AI开放平台"
+    string(20) "高重AI开放平台"
     ["key2"]=>
     string(18) "示例仅供参考"
     ["sign"]=>
-    string(32) "BE918C28827E0783D1E5F8E6D7C37A61"
+    string(32) "5C3FE8F467B2D02F53128FCBD87F8557"
     }
 
-可知，sign的计算结果为BE918C28827E0783D1E5F8E6D7C37A61。
+可知，sign的计算结果为5C3FE8F467B2D02F53128FCBD87F8557。
 
 **3. 最终请求数据**
 
@@ -156,7 +156,7 @@
 
 **4. 执行API调用（PHP）**
 
-假设该示例的接口API地址为：https://api.ai.qq.com/path/to/api，请求方式要求为：POST。
+假设该示例的接口API地址为：https://openai.grandhonor.net/Main/Index，请求方式要求为：POST。
 
 | 此时通过PHP实现API的调用代码如下，开发者可以参考实现其他语言的版本。
 
@@ -215,18 +215,18 @@
     }
 
     // 设置请求数据（应用密钥、接口请求参数）
-    $appkey = 'a95eceb1ac8c24ee28b70f7dbba912bf';
+    $appkey = 'bhiOaZRznGjFROtk';
     $params = array(
         'app_id'     => '10000',
-        'time_stamp' => '1493449657',
-        'nonce_str'  => '20e3408a79',
-        'key1'       => '腾讯AI开放平台',
+        'time_stamp' => '1554272042',
+        'nonce_str'  => '46087c4dc98c4fb388cc4ace41a234e6',
+        'key1'       => '高重AI开放平台',
         'key2'       => '示例仅供参考',
     );
     $params['sign'] = getReqSign($params, $appkey);
 
     // 执行API调用
-    $url = 'https://api.ai.qq.com/path/to/api';
+    $url = 'https://openai.grandhonor.net/Main/Index';
     $response = doHttpPost($url, $params);
     echo $response;
 
