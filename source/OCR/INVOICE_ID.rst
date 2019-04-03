@@ -105,7 +105,7 @@ HI，您好，欢迎使用高重AI开放平台定额发票OCR API接口服务。
 
 | 下面使用PHP实现该HTTP API调用，其中getReqSign、doHttpPost可以从'接口鉴权获取'_。
 
-.. _接口鉴权:https://aiopendoc.readthedocs.io/en/latest/guide.html#id7
+.. _接口鉴权获取:https://aiopendoc.readthedocs.io/en/latest/guide.html#id7
 
 .. code-block:: c                                               
   :linenos:                                                   
