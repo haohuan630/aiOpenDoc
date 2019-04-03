@@ -103,7 +103,7 @@ HI，您好，欢迎使用高重AI开放平台定额发票OCR API接口服务。
 
 假设应用密钥为：bhiOaZRznGjFROtk，示例图片文件存储路径为：/path/to/image。
 
-| 下面使用PHP实现该HTTP API调用，其中getReqSign、doHttpPost可以从'接口鉴权获取'_。
+| 下面使用PHP实现该HTTP API调用，其中getReqSign、doHttpPost可以从'接口鉴权获取<https://aiopendoc.readthedocs.io/en/latest/guide.html#id7>'_
 
 .. _接口鉴权获取:https://aiopendoc.readthedocs.io/en/latest/guide.html#id7
 
