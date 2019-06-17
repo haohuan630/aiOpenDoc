@@ -8,7 +8,7 @@
 
 .. include:: ./OCR/INVOICE_ID.rst
 
-.. **表格文字识别**
-.. -----------------
+**火车票识别**
+-----------------
 
-.. .. include:: ./OCR/INVOICE_ID.rst
+.. include:: ./OCR/TRAIN.rst

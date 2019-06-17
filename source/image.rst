@@ -7,8 +7,3 @@
 -------------
 
 .. include:: ./IMAGE/ALL_IMAGE.rst
-
-.. **表格文字识别**
-.. -----------------
-
-.. .. include:: ./OCR/INVOICE_ID.rst
