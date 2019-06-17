@@ -16,4 +16,5 @@
    guide
    OCR
    image
+   video
 
