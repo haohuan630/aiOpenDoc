@@ -15,5 +15,5 @@
 
    guide
    OCR
-   face
+   image
 
