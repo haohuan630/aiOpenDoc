@@ -6,6 +6,11 @@
 **发票识别**
 -------------
 
+.. include:: ./OCR/ALL_OCR.rst
+
+**发票识别**
+-------------
+
 .. include:: ./OCR/INVOICE_ID.rst
 
 **火车票识别**
